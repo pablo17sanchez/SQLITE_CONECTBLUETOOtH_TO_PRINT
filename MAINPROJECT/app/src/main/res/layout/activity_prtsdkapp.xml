@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:orientation="vertical" 
+				    android:minHeight="?android:attr/listPreferredItemHeight"
+    tools:context=".PRTSDKApp">
+
+    <LinearLayout android:layout_width="match_parent"
+				  android:layout_height="wrap_content"
+				  android:orientation="horizontal" 
+				  android:minHeight="?android:attr/listPreferredItemHeight">
+	    <TextView
+	        android:id="@+id/itemName3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="3.0dip"
+	        android:text="@string/printer"	        
+	        android:textSize="20.0dip" />
+	                
+	    <Spinner
+	        android:id="@+id/spn_printer_list" 
+	        android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:textSize="20.0dip"/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btnBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConnectBT" />
+           
+    <Button
+        android:id="@+id/btnUSB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConnectUSB" />
+    
+    <EditText
+	        android:id="@+id/txtIPAddress"
+	        android:layout_width="match_parent"	       
+	        android:layout_height="wrap_content"
+	        android:textColor="#000000"
+	        android:textSize="20sp"
+	        android:maxLines="1"
+	        android:hint="@string/import_ip_hint"
+	        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/btnWiFi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnConnectWiFi" />
+    
+    <LinearLayout android:layout_width="match_parent"
+				  android:layout_height="wrap_content"
+				  android:orientation="horizontal" 
+				  android:minHeight="?android:attr/listPreferredItemHeight">
+	    <TextView
+	        android:id="@+id/itemName3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10.0dip"
+	        android:text="@string/language"	        
+	        android:textSize="20.0dip" />
+	                
+	    <Spinner
+	        android:id="@+id/spn_language" 
+	        android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:textSize="20.0dip"/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btnDisplayRemainingPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDisplayRemainingPower" />
+    <TextView
+	        android:id="@+id/txtRemainingPower"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="3.0dip"
+	        android:text="@string/txtRemainingPower"	        
+	        android:textSize="20.0dip" />
+    
+    <EditText
+		    android:id="@+id/edtPrintText"
+		    android:layout_width="fill_parent"		    
+		    android:layout_height="60.0dip"
+		    android:ems="10"
+		    android:text="Android SDK!"
+		    android:singleLine="false" >     	
+	</EditText>
+    <Button
+        android:id="@+id/btnPrint"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="3.0dip"
+        android:text="@string/btnprint" />
+    
+    <TextView
+	        android:id="@+id/txtTips"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10.0dip"
+	        android:text="@string/no_printer"	        
+	        android:textSize="20.0dip" />
+
+</LinearLayout>

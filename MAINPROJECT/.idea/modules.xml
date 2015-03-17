@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MAINPROJECT.iml" filepath="$PROJECT_DIR$/MAINPROJECT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PRT_SDK/PRT_SDK.iml" filepath="$PROJECT_DIR$/PRT_SDK/PRT_SDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-support-v4/android-support-v4.iml" filepath="$PROJECT_DIR$/android-support-v4/android-support-v4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+

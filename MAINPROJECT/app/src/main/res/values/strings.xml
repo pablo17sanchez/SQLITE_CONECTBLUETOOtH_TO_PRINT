@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MAINPROJECT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_insertar__datos">INSERTAR_DATOS</string>
+    <string name="title_activity_consultar__datos">CONSULTAR_DATOS</string>
+    <string name="insertar">Insertar</string>
+    <string name="consultar">Consultar</string>
+    <string name="title_activity_seleccion">SELECCION</string>
+    <string name="title_activity_insertar_datos_2">insertar_datos_2</string>
+    <string name="title_activity_activity_prtsdkapp">activity_prtsdkapp</string>
+    <string name="quit">Quit</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="sureExit">Are you sure exit?</string>
+    <string name="warmTips">Warm</string>
+    <string name="no_printer">No Printer</string>
+    <string name="have_printer">Printer:</string>
+    <string name="scan_error">Scan Error</string>
+    <string name="scan_success">Scan Success</string>
+    <string name="message_quit_title">Message</string>
+    <string name="connect_last_printer">Connecting printer，Please wait...</string>
+    <string name="print_text">Print Text:</string>
+    <string name="connect_usb_printer">Please connect usb printer.</string>
+
+    <string name="printer">Printer List:</string>
+    <string-array name="printer_list">
+        <item>DASCOM DT-210</item>
+        <item>DASCOM DT-230</item>
+        <item>SYNCROWN SMP-R381</item>
+        <item>SYNCROWN SMP-R385</item>
+        <item>SYNCROWN SMP-R386</item>
+        <item>SMP-M240</item>
+        <item>SMP-M24L</item>
+        <item>SMP-M250</item>
+        <item>SMP-L258</item>
+        <item>SMP-L380</item>
+        <item>PPT2</item>
+        <item>PPT2-A</item>
+        <item>PPT2-UR</item>
+        <item>MPD2</item>
+        <item>MPT8</item>
+        <item>MPT-II</item>
+        <item>MPT-EII</item>
+        <item>MPT-2B</item>
+        <item>MPT-III</item>
+        <item>MPT58</item>
+        <item>MPT58-LV</item>
+        <item>MLP2</item>
+        <item>MLP2-LV</item>
+        <item>RG-LP58A</item>
+        <item>MPS-III</item>
+        <item>TP801 Printer</item>
+        <item>TP805 Printer</item>
+        <item>TP806 Printer</item>
+        <item>HPRT TP801</item>
+        <item>HPRT TP805</item>
+        <item>HPRT TP806</item>
+        <item>POS80-A Printer</item>
+        <item>POS80-B Printer</item>
+        <item>POS80-C Printer</item>
+        <item>ELGIN i9</item>
+        <item>POS58A Printer</item>
+        <item>PPTII-A Printer</item>
+        <item>HPRT LPQ58</item>
+        <item>HPRT LPQ80</item>
+    </string-array>
+
+
+    <string name="btnConnectBT">Connect Bluetooth Printer</string>
+    <string name="btnConnectWiFi">Connect WiFi Printer</string>
+    <string name="btnConnectUSB">Connect USB Printer</string>
+    <string name="btnConnectLAN">Connect LAN Printer</string>
+    <string name="btnprint">Print</string>
+    <string name="btnscanbluetooth">Scan Bluetooth Device</string>
+
+    <string name="language">Language:</string>
+    <string name="connecterr">Connect Error</string>
+    <string name="connected">Connect Access</string>
+    <string name="warmingconnect">Printer DisConnect</string>
+    <string name="PrintIsNotReady">Print Is Not Ready</string>
+    <string name="err_noIP">Please Import IP Address</string>
+
+    <string name="originalsize">OriginalSize:</string>
+    <string name="minifront">MINIFONT ☺:</string>
+    <string name="heightsize">COPY SOLUTION PRUEBA HEGTSIZE:</string>
+    <string name="widthsize">PRUEBA WITH SIZE:</string>
+    <string name="heightwidthsize">HeightWidthSize:</string>
+    <string name="bold">Blod:</string>
+    <string name="underline">Underline:</string>
+
+    <string name="title_paired_devices"></string>
+    <string name="title_other_devices">Other devices</string>
+    <string name="button_scan">Scan bluetooth</string>
+    <string name="none_paired">None paired Devices</string>
+    <string name="scanning">Scanning......</string>
+    <string name="select_device">Listado  de equipos disponibles</string>
+    <string name="connect">connect</string>
+    <string name="get_device_err">Get Device Error:</string>
+
+    <string name="scan_wifi_title">Get Device Error:</string>
+    <string name="btn_scan_wifi">Scan WiFi</string>
+    <string name="no_wifi_adhoc">No WiFi Ad-hoc</string>
+    <string name="no_printer_object">Please Connect Printer First</string>
+
+    <string name="import_ip_hint">Import IP Address</string>
+    <string name="import_print_text">Import Print Text</string>
+
+    <string name="btnDisplayRemainingPower">Display Remaining Power</string>
+    <string name="txtRemainingPower">Click Button</string>
+
+    <string name="BondError">"Bond error!Please bond bluetooth printer in settings panel first."</string>
+
+</resources>
+
+
+
